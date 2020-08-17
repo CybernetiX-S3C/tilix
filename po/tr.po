@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: terminix\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-06 18:49-0500\n"
-"PO-Revision-Date: 2019-05-09 03:49+0000\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"PO-Revision-Date: 2020-08-08 19:32+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/tilix/"
 "translations/tr/>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: source/app.d:139
 #, c-format
@@ -151,7 +151,7 @@ msgstr "GC"
 #: source/gx/tilix/appwindow.d:1082
 #: source/gx/tilix/prefeditor/prefdialog.d:1164 source/gx/tilix/session.d:1222
 msgid "Default"
-msgstr "Varsayılan"
+msgstr "Öntanımlı"
 
 #: source/gx/tilix/appwindow.d:1191
 msgid "There are multiple sessions open, close anyway?"
@@ -707,7 +707,7 @@ msgstr "Renk"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:100
 msgid "Scrolling"
-msgstr "Akma"
+msgstr "Kaydırma"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:101
 msgid "Compatibility"
@@ -805,15 +805,15 @@ msgstr "Blok"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:422
 msgid "IBeam"
-msgstr "I-şekli"
+msgstr "IBeam"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:422
 msgid "Underline"
-msgstr "Alt-çizgi"
+msgstr "Alt çizgi"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:430
 msgid "Cursor blink mode"
-msgstr "İmleç göz kırpma modu"
+msgstr "İmleç yanıp sönme"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:433
 msgid "System"
@@ -834,7 +834,7 @@ msgstr "Bildirim"
 #: source/gx/tilix/prefeditor/profileeditor.d:449
 #: source/gx/tilix/prefeditor/prefdialog.d:1151
 msgid "None"
-msgstr "Hiçbiri"
+msgstr "Yok"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:449
 msgid "Sound"
@@ -998,7 +998,7 @@ msgstr "Kaydırma çubuğunu göster"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:1030
 msgid "Scroll on output"
-msgstr "Çıkış esnasında kaydır"
+msgstr "Çıktı olduğunda kaydır"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:1034
 msgid "Scroll on keystroke"
@@ -1196,7 +1196,7 @@ msgid ""
 "A list of user defined links that can be clicked on in the terminal based on "
 "regular expression definitions."
 msgstr ""
-"Düzenli ifade tanımlarını temel alan terminalden  tıklanabilen kullanıcı "
+"Düzenli ifade tanımlarını temel alan terminalden tıklanabilen kullanıcı "
 "tanımlı bağlantıların listesi."
 
 #: source/gx/tilix/prefeditor/common.d:67
@@ -1229,7 +1229,7 @@ msgstr "Görünüm"
 #: source/gx/tilix/prefeditor/prefdialog.d:150
 #: source/gx/tilix/prefeditor/prefdialog.d:151
 msgid "Quake"
-msgstr "Deprem"
+msgstr "Quake"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:155
 #: source/gx/tilix/prefeditor/prefdialog.d:156
@@ -1297,7 +1297,7 @@ msgstr "Kısa yolları etkinleştir"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:805
 msgid "Set default"
-msgstr "Varsayılanı ayarla"
+msgstr "Öntanımlı değeri ayarla"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:916
 msgid "Overwrite Existing Shortcut"
@@ -1421,7 +1421,7 @@ msgstr "Uzat"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:1221
 msgid "Default session name"
-msgstr "Varsayılan oturum adı"
+msgstr "Öntanımlı oturum adı"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:1236
 msgid "Application title"
@@ -1693,7 +1693,8 @@ msgid "translator-credits"
 msgstr ""
 "Giray Devlet\n"
 "Mahmutcan İlhandağ\n"
-"Tolga Golelcin"
+"Tolga Golelcin\n"
+"Oğuz Ersen"
 
 #: source/gx/tilix/application.d:303
 msgid "Credits"
@@ -1793,7 +1794,7 @@ msgstr "GEOMETRİ"
 msgid ""
 "Opens a window in quake mode or toggles existing quake mode window visibility"
 msgstr ""
-"Deprem modunda bir pencere açar veya varolan deprem modu penceresinin "
+"Quake modunda bir pencere açar veya varolan deprem modu penceresinin "
 "görünürlüğünü açar/kapar"
 
 #: source/gx/tilix/application.d:696
@@ -1962,7 +1963,7 @@ msgstr "'%s' dizin olmadığı için önemsemiyorum"
 #: source/gx/tilix/cmdparams.d:152
 #, c-format
 msgid "Geometry string '%s' is invalid and could not be parsed"
-msgstr "Geometri dizisi '%s' geçersiz ve ayrıştırılamadı"
+msgstr "Geometri dizgisi '%s' geçersiz ve ayrıştırılamadı"
 
 #: source/gx/tilix/cmdparams.d:186
 msgid ""
@@ -1980,7 +1981,7 @@ msgstr "Eylem parametresi yalnızca Tilix içinde kullanabilirsiniz"
 msgid ""
 "You cannot use the quake mode with maximize, minimize or geometry parameters"
 msgstr ""
-"Deprem modunu kaplatma, küçültme veya geometri parametreleri ile "
+"Quake modunu kaplatma, küçültme veya geometri parametreleri ile "
 "kullanamazsınız"
 
 #: source/gx/tilix/encoding.d:18 source/gx/tilix/encoding.d:31
